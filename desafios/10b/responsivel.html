@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsividade</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 280px;
+            max-width: 800px;
+            margin: auto;
+        }
+        img{
+            width:100%
+        }
+        
+        /* 
+        Essa configuração de img é uma forma de não deixar a imagem quebrando, ocupando assim 100%
+        */
+
+
+    </style>
+</head>
+<body>
+    <main>
+    <h1>Testando Responsividade</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat suscipit veniam voluptates quae beatae soluta aperiam molestias voluptas eius? Porro voluptatum, nesciunt eaque aperiam sequi aut odit cum eius officia? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt facere nam ullam fugiat, consequuntur possimus consequatur illum ex perferendis? Vel iste porro pariatur modi optio atque? Dolore cum incidunt nobis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit, necessitatibus tenetur perspiciatis aspernatur recusandae sequi? Tenetur hic exercitationem commodi quae quasi autem minima ratione, sed debitis fugit eius ab totam!</p>
+    
+    <picture>
+        <source media="(max-width:600px)" srcset="imagens\irina-blok-pq.jpg">
+        <img src="imagens/irina-blok.jpg" alt="">
+    </picture>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui inventore, consequatur nulla blanditiis sapiente aspernatur totam, aut facere suscipit tempore eligendi, nam voluptate eum recusandae possimus vel et cum quaerat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse harum illo quibusdam omnis ipsum repudiandae dolor vitae, eum reprehenderit dicta quos temporibus, et tempore id exercitationem dolorem deleniti, asperiores excepturi?</p>
+    </main>
+    
+</body>
+</html>

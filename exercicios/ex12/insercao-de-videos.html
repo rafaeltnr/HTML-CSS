@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video width="300" height="169" controls autoplay loop poster="Imagens/ggg.jpg"width="300">
+        <source src="midia/pexels-nadezhda-moryak-low.mp4.mp4" type="video/mp4">
+        <source src="midia/nadezhda-moryak-664129568.webm.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos.</p>
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1>
+    <iframe width="300" height="169" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <!--Com a inserção de videos externos ou seja que não estão hospedados no seu servidor, o consumo de dados dos clientes do video não vai cair sobre você, deixando bem mais viavel e barato a manutenção do site, além da divulgação de plataformas como o youtube possuí-->
+    <h1>Vídeo do vimeo</h1>
+    <br>
+    <iframe src="https://player.vimeo.com/video/29844795?h=f0a1764666&color=c9ff23" width="300" height="169" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

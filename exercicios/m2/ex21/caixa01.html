@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de caixas</title>
+    <style>
+        h1{
+            background-color: cadetblue;
+            height:300px; 
+            width:300px;
+            
+            /*
+            Width e height caracteriza aqui a box size, é importante para mais estudos usar a ferramente DEVTOOLS do Chrome
+            É possivel mudar um box para inline ou vice-versa com a inserção do display ex:
+            
+            display: inline;
+            ou
+            display: block;
+            
+            Deixando ele inline configuração como altura ou largura não pode ser mais feitas
+
+            Tem também um outro modelo hibrido que é o inline-block
+            */
+           
+            border-width: 10px;
+            border-style: solid;
+            border-color: blueviolet;
+
+            border:10px solid blueviolet;
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+
+            /* 
+            padding: 10px 10px 10px 10px;
+            padding: 10px;
+            padding: 20px 10px;
+
+            A aplicação é uma shorthand, quando todos os seus valores são o mesmo basta colocar o valor apenas uma vez, quando informado duas vezes ele aplica um valor para cima e baixo e o segundo valor para esquerda e direita  */
+
+            margin-top: 20px;
+            margin-right: 10px;
+            margin-bottom: 40px;
+            margin-left: 10px;
+
+            margin: 20px auto 40px auto;
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: yellow;
+
+            outline: 5px dashed yellow;
+           
+            /*margin:auto; serve para centralizar no meio, independente do tamanho do display que esta sendo vizualizado*/
+        }
+        a{
+            border-width: 4px;
+            border-style: dotted;
+            border-color: red;
+
+            border: 4px dotted red;
+
+            
+            padding-top: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+            padding-bottom: 10px;
+
+            padding: 5px 10px 10px 10px;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são box-level, mas os <a href="#">links são inline-level</a>.Vamos ver como tudo isso funciona</p>
+</body>
+</html>

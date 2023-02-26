@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+    <style>
+        body{
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <ol type="1" start="3"> <!-- 1 A a I i -->
+        <li>Acordar
+        <li>Tomar café
+        <li>Escovar os dentes
+        <li>Ir para pqp
+        <li>sair do planeta
+    </ol>
+    <ol type="a">
+        <li>Acordar
+        <li>Tomar café
+        <li>Escovar os dentes
+        <li>Ir para pqp
+        <li>sair do planeta
+    </ol>
+    <ol type="I">
+        <li>Acordar
+        <li>Tomar café
+        <li>Escovar os dentes
+        <li>Ir para pqp
+        <li>sair do planeta
+        <!--na tag <li> e o seu fechamento </li> não é obrigatório no HTML5-->
+    </ol>
+    <h2>Listas não ordenadas</h2>
+    <ul><!-- disc circle square -->
+        <li>Pão</li>
+        <li>Açucar</li>
+        <li>Dildo</li>
+        <li>Arroz</li>
+        <li>Suco</li>
+    </ul>
+    <ul type="circle">
+        <li>Pão</li>
+        <li>Açucar</li>
+        <li>Dildo</li>
+        <li>Arroz</li>
+        <li>Suco</li>
+    </ul>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Açucar</li>
+        <li>Dildo</li>
+        <li>Arroz</li>
+        <li>Suco</li>
+    </ul>
+    <!--disc é o tipo padrão da tag UL-->
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a" start="5">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol>
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>Ps4</li>
+        <ul>
+            <li>Persona 5</li>
+            <ul type="circle">
+                <li>Persona 3</li>
+            </ul>
+            <li>Bloodborne</li>
+            <ul>
+                <li>Sekiro</li>
+            </ul>
+        </ul>
+        <li>Ps2</li>
+        <ul type="square">
+            <li>Shadow of the Colossus</li>
+            <li>Naruto</li>
+            <li>Black</li>
+        </ul>
+    </ol>
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>Termo-HTML</dt>
+        <dd>Descrição-Linguagem de marcação</dd>
+        <dt>CSS</dt>
+        <dd>Lingaguem de marcação para o design do site</dd>
+    </dl>
+</body>
+</html>

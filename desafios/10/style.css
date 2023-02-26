@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url('outros/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(55, 195, 116);
+}
+header{
+    margin-top: -22px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+    margin-left: -9px;
+    background-color: rgb(34, 118, 70);
+    box-shadow: 2px -2px 30px 1px #000000a6;
+    padding: 15px 1px;
+}
+nav{
+    text-indent: 10px;
+}
+.cabeçalho {
+    background-color:rgb(34, 118, 70);
+    color: white;
+}
+main{
+    width: 86%;
+    margin:0px auto;
+    padding:20px;
+    background-color: white;
+    box-shadow: 2px -2px 7px 1px #000000a6;
+    border-radius: 5px;
+    text-indent: 7px;
+}
+.header{
+    text-align: center;
+    color: white;
+}
+h2{
+    font-style: bolder;
+    color:green;
+}
+.idroid{
+    font-family: 'idroid';
+}
+    
+h3{
+    background-color: rgb(3, 219, 3);
+    color: white;
+    padding: 1px 8px 5px 8px;
+    margin: 5px -1px -9px -1px;
+    border-radius: 5px;
+}
+footer{
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 1px 0px 1px 1px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.397);
+    margin-top: 12px;
+    margin-right: -8px;
+    margin-bottom: 0px;
+    margin-left: -9px;
+}
+footer > p {
+    margin:0px;
+}
+strong{
+    color: green;
+}
+a{
+    text-decoration: none;
+    color: green;
+    background-color: rgba(0, 180, 0, 0.13);
+}
+ol {
+    list-style-image: url('imagem/kisspng1.png');
+}
+div{
+    background-color: rgba(0, 255, 0, 0.164);
+    padding: 1px 8px 5px 8px;
+    border-radius: 5px;
+}
+div > a {
+    text-decoration: none;
+    color: white;
+}
+picture{
+    text-align: center;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags Semântica</title>
+    <style>
+        body{
+            font-family:'Courier New', Courier, monospace;
+            background-color: black;
+            margin:0px;
+        }
+        header{
+            background-color: rgb(104, 127, 255);
+            padding: 3px;
+            margin: 0px;
+        }
+        nav {
+            background-color: black;
+            color: #0000ff;
+            padding: 3px;
+            box-shadow: -7px -2px 7px 2px rgb(0 0 0 / 46%);
+            
+            /*
+            No box-shadow normalmente só se usa sua cor original que é o preto e recomenda-se deixar ele mais transparente para deixar a sombra mais sutil
+            */
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        nav > a:hover {
+            text-decoration: line-through;
+
+        }
+
+        main{
+            background-color:rgb(43, 53, 199);
+            padding: 10px;
+            margin:10px;
+            text-align: justify;
+            border-radius: 10px 20px 30px 40px;
+        }
+        article{
+            background-color:rgb(25, 31, 117);
+            padding: 5px;
+        }
+        article > aside {
+            background-color:rgb(0, 0, 0);
+            color: white;
+        }
+        footer {
+            background-color: rgb(43, 42, 42);
+            color: white;
+            text-align: center;
+            padding: 3px;   
+        }
+        footer > p {
+            margin:0px;
+        }
+        h1{
+            box-shadow: inset 2px -2px 7px 1px #000000a6;
+        }
+        div#bola {
+            height:100px;
+            width:100px;
+            background-color: white;
+            margin:20px;
+            border-radius:50px;
+
+        }
+        /* 
+        Criei esses box-shadow com o auxilio do devtools.Esse shorthand simboliza em sequência essas espeçificações:
+
+        1-deslocamento horizontal
+        2-deslocamento vertical
+        3-Blur
+        4-Spread
+        5-cor
+        */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p><strong>Jojo Bizarre Adventure</strong></p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre JoJo part 9</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias perspiciatis molestiae consequatur dolorem perferendis blanditiis sed veniam sapiente facere reprehenderit rem id esse cum natus, fugit, similique tenetur velit aspernatur.</p>
+                <aside>
+                    <p>Artigo feito pelo Thomas Turbando</p>
+                </aside>
+
+            </article>
+            <article>
+                <h2>Bacana</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iure veritatis incidunt doloremque officiis sit dolores quaerat, ea reprehenderit harum sed exercitationem neque fugit nobis fugiat! Praesentium, eveniet recusandae! Rem.</p>
+            </article>
+
+        </section>
+
+
+    </main>
+    <footer>
+       <p> desenvolvido by my dick</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+    
+</body>
+</html>

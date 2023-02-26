@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e deminua o tamanho do seu navegador</p>
+<picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="Imagens/foto-g.png" alt="imagem flexivel">
+</picture>
+<h1>Reproduzindo Áudio</h1>
+<p>Vamos aprender a reproduzir áudios em HTML5</p>
+<audio src="midia/christmas.mp3" autoplay controls></audio>
+<audio>
+    <source src="midia/christmas.mp3" type="audio/mpeg">
+    <source src="midia/christmas.ogg" type="audio/ogg">
+    <source src="midia/christmas.wav" type="audio/wav">
+    <!--audio WAV é bem pesado-->
+    <p>Infelizmente seu navegador não consegue reproduzir áudio.<a href="midia/christmas.mp3">Clique aqui para baixar o arquivo MP3</a></p>
+</audio>
+<!--MP3 WAV OGG - Alguns navegadores podem não ser compativel com o formato MP3,acima está apenas os exemplos da inserção de outros formatos, a sua ordem é importante-->
+<audio preload="metadata" controls autoplay loop src="midia/come-all.mp3"></audio>
+<!--No preload tem as opções auto, metadata, none, elas implicam na forma que é carregado, pesquise sobre é importante-->
+</body>
+</html>
